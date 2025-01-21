@@ -28,7 +28,7 @@ namespace TU_Challenge
 
         public bool IsComplete(Vector2 start, Vector2 end)
             => _path != null &&
-            _path[0] == start &&
-            _path[_path.Count - 1] == end;
+               _path[0] == start &&
+               _path[_path.Count - 1] == end;
     }
 }
